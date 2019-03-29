@@ -61,3 +61,8 @@ how to connect to git repo
   to add folder
   git add src/ ---- will add src folder
 
+  now to commit the files 
+   git commit -m <message> eg  git commit -m "initial commit "  and this will create a change list
+
+   and finally  to push changes
+    git push
