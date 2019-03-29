@@ -1,0 +1,63 @@
+
+got to http://github.com/angular-university
+ clone from angular-ngrx-course repo
+
+ git clone <clone url>
+
+ when we clone it will be on master branch
+ so to change to 1-auth branch
+
+ git checkout -b 1-auth origin/1-auth
+
+ now we have code
+ run npm install
+
+
+
+
+running the project
+#######################################################
+1) start  backend server
+	npm run server
+2) start developement server
+	npm start
+#####################################################################
+ngrx dev tools
+
+	https://chrome.google.com/webstore/category/extensions
+	search redux
+	Add it plugin
+##########################################################################
+scafolding to create Reducer
+ng generate reducer Auth --flat=false --module auth/auth.module.ts
+
+####################################################################
+Side effect
+
+ng generate effect auth/Auth ---> creates an effect in auth folder
+
+to which module we can to update this
+
+ng generate effect auth/Auth --module auth/auth.module.ts // that is path and name of the module
+
+ what is side effect . duriing a user action  we store the application state in store 
+ at the same time we want to save that info in data base we do it through effects
+
+
+
+ ########################################################################################
+ useful git
+how to connect to git repo
+ 1) go to github.com 
+ 2) create a repository by clickinng on start project
+ 3) clone this to local worspace
+
+ copy all the src code to folder created by by cloning
+
+ now check the status > git  status
+  will see what files and to  folder to add
+  
+  >git add <fileName>
+  to add folder
+  git add src/ ---- will add src folder
+
